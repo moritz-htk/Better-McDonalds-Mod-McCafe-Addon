@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="MIT"
+# issueTrackerURL=""
+[[mods]]
+modId="bettermcdonaldsmod_mccafe"
+version="1.19.4-1.0.0"
+displayName="Better McDonalds Mod: McCafé Addon"
+# displayURL=""
+logoFile="logo.png"
+# credits=""
+authors="simon_mc"
+description='''
+This Better McDonalds Mod addon adds many well-known McDonalds McCafé products.
+'''
+[[dependencies.bettermcdonaldsmod_mccafe]]
+    modId="forge"
+    mandatory=true
+    versionRange="[45,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.bettermcdonaldsmod_mccafe]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4,1.20)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.bettermcdonaldsmod_mccafe]]
+    modId="bettermcdonaldsmod"
+    mandatory=true
+    versionRange="[1.19.4-3.0.1]"
+    ordering="NONE"
+    side="BOTH"
+# [modproperties.bettermcdonaldsmod_mccafe]
+#     catalogueItemIcon=""
